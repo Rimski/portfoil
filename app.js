@@ -44,7 +44,13 @@ app.controller("mainController", ["$scope", function ($scope) {
             imgUrl: "./ScreenShots/K&J.png",
             description: "In this project i copied the styles of K & J Diaries, from scratch.",
             codeUrl: "https://github.com/Rimski/vschool-assignments/tree/master/projects/kAndJ",
-            projectUrl: "wrst.ninja/projectLink/kAndJ/index.html"
+            projectUrl: "http://wrst.ninja/projectLink/kAndJ/index.html"
+        }, {
+            name: "Whats for Dinner",
+            imgUrl: "./ScreenShots/whatsfordinner.png",
+            description: "This project i colaberated with some of my classmates on; you can add recipies randomize a calander based on the recipies in your account.",
+            codeUrl: "https://github.com/theBestWhatsForDinner/Whats-for-dinner",
+            projectUrl: "http://dinner.skylertalbot.xyz/"
         }
     ]
 }])
