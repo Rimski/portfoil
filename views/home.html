@@ -2,7 +2,7 @@
 <div ng-repeat="item in projects">
     <h2>{{ item.name }}</h2>
     <div class="project">
-        <a ng-href="{{ item.projectUrl }}" target="_blank"><img class="project" ng-src="{{ item.imgUrl }}" alt=""></a>
+        <a href="{{ item.projectUrl }}" target="_blank"><img class="project" ng-src="{{ item.imgUrl }}" alt=""></a>
     </div>
     <p>{{ item.description }}</p>
     <a ng-href="{{ item.codeUrl }}" target="_blank"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="" class="link"></a>
