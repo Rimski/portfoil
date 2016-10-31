@@ -14,6 +14,9 @@ app.config(function ($routeProvider) {
         .when("/buildabot", {
             templateUrl: "projectLink/Build-A-botcopy/index.html",
         })
+//        .when("/projectLink/kAndJ/index.html", {
+//            templateUrl: "projectLink/kAndJ/index.html",
+//        })
         .otherwise({
             templateUrl: "views/home.html"
         })
