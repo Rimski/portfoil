@@ -14,11 +14,14 @@ app.config(function ($routeProvider) {
         .when("/buildabot", {
             templateUrl: "projectLink/Build-A-botcopy/index.html",
         })
-//        .when("/projectLink/kAndJ/index.html", {
-//            templateUrl: "projectLink/kAndJ/index.html",
-//        })
+        .when("/home", {
+            templateUrl: "views/home.html",
+        })
+        .when("/", {
+            templateUrl: "views/home.html",
+        })
         .otherwise({
-            templateUrl: "views/home.html"
+            templateUrl: "projectLink/MyLittleBrony/index.html"
         })
 
 })
