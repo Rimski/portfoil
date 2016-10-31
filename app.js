@@ -8,12 +8,6 @@ app.config(function ($routeProvider) {
         .when("/resume", {
             templateUrl: "views/resume.html"
         })
-//        .when("/pony", {
-//            templateUrl: "projectLink/MyLittleBrony/index.html",
-//        })
-//        .when("/buildabot", {
-//            templateUrl: "projectLink/Build-A-botcopy/index.html",
-//        })
         .when("/home", {
             templateUrl: "views/home.html",
         })
