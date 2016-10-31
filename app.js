@@ -44,7 +44,7 @@ app.controller("mainController", ["$scope", function ($scope) {
             imgUrl: "./ScreenShots/K&J.png",
             description: "In this project i copied the styles of K & J Diaries, from scratch.",
             codeUrl: "https://github.com/Rimski/vschool-assignments/tree/master/projects/kAndJ",
-            projectUrl: "wrst.ninja/projectLink/kAndJ/index.html"
+            projectUrl: "./projectLink/kAndJ/index.html"
         }
     ]
 }])
