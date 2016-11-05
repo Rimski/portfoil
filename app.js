@@ -44,7 +44,7 @@ app.controller("mainController", ["$scope", function ($scope) {
             imgUrl: "./ScreenShots/whatsfordinner.png",
             description: "This project i colaberated with some of my classmates on; you can add recipies randomize a calander based on the recipies in your account.",
             codeUrl: "https://github.com/theBestWhatsForDinner/Whats-for-dinner",
-            projectUrl: "http://dinner.skylertalbot.xyz/"
+            projectUrl: "http://dinner.wrst.ninja/"
         }
     ]
 }])
